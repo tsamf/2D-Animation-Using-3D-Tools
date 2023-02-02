@@ -1,0 +1,76 @@
+Initialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a8)
+    Vendor:   Intel
+    VRAM:     4145 MB
+    Driver:   31.0.101.3301
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\samfo\Documents\Repositories\2D-Animation-Using-3D-Tools\Build\PrisionBreak_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\samfo\Documents\Repositories\2D-Animation-Using-3D-Tools\Build\PrisionBreak_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\samfo\Documents\Repositories\2D-Animation-Using-3D-Tools\Build\PrisionBreak_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\samfo\Documents\Repositories\2D-Animation-Using-3D-Tools\Build\PrisionBreak_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\samfo\Documents\Repositories\2D-Animation-Using-3D-Tools\Build\PrisionBreak_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\samfo\Documents\Repositories\2D-Animation-Using-3D-Tools\Build\PrisionBreak_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\samfo\Documents\Repositories\2D-Animation-Using-3D-Tools\Build\PrisionBreak_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\samfo\Documents\Repositories\2D-Animation-Using-3D-Tools\Build\PrisionBreak_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\samfo\Documents\Repositories\2D-Animation-Using-3D-Tools\Build\PrisionBreak_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\samfo\Documents\Repositories\2D-Animation-Using-3D-Tools\Build\PrisionBreak_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.014 seconds
+Platform assembly: C:\Users\samfo\Documents\Repositories\2D-Animation-Using-3D-Tools\Build\PrisionBreak_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\samfo\Documents\Repositories\2D-Animation-Using-3D-Tools\Build\PrisionBreak_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1200 60Hz; virtual: 3840x1200 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.682100 ms
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: 3394 -> priority: 1 
+  Thread -> id: 71f4 -> priority: 1 
+  Thread -> id: 8380 -> priority: 1 
+  Thread -> id: 66e8 -> priority: 1 
+  Thread -> id: 2fa0 -> priority: 1 
+  Thread -> id: 2190 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.287300 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 942.
+Total: 0.321600 ms (FindLiveObjects: 0.056200 ms CreateObjectMapping: 0.008900 ms MarkObjects: 0.215400 ms  DeleteObjects: 0.039900 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.826100 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 10318.
+Total: 2.448300 ms (FindLiveObjects: 0.721700 ms CreateObjectMapping: 0.145000 ms MarkObjects: 1.527800 ms  DeleteObjects: 0.052700 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.592700 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 10316.
+Total: 1.255000 ms (FindLiveObjects: 0.402000 ms CreateObjectMapping: 0.041400 ms MarkObjects: 0.794100 ms  DeleteObjects: 0.016600 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.879000 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 10316.
+Total: 1.376200 ms (FindLiveObjects: 0.444800 ms CreateObjectMapping: 0.048400 ms MarkObjects: 0.861600 ms  DeleteObjects: 0.018800 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.407000 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 10316.
+Total: 1.246400 ms (FindLiveObjects: 0.435700 ms CreateObjectMapping: 0.037600 ms MarkObjects: 0.762500 ms  DeleteObjects: 0.009900 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.580900 ms
+
+Unloading 882 unused Assets to reduce memory usage. Loaded Objects now: 282.
+Total: 0.672600 ms (FindLiveObjects: 0.064700 ms CreateObjectMapping: 0.024700 ms MarkObjects: 0.126600 ms  DeleteObjects: 0.455700 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.251800 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 639.
+Total: 0.319800 ms (FindLiveObjects: 0.036400 ms CreateObjectMapping: 0.011300 ms MarkObjects: 0.259400 ms  DeleteObjects: 0.011800 ms)
+

@@ -83,7 +83,10 @@ public class LevelManager : MonoBehaviour {
             SendAnalytics();
    
             GameObject.Find("Canvas").GetComponent<Canvas>().enabled = false;
+            UpdateResultsCanvas();
             GameObject.Find("ResultCanvas").GetComponent<Canvas>().enabled = true;
+
+            
 
             //gameManager.LoadNextLevel();
         }
@@ -98,6 +101,14 @@ public class LevelManager : MonoBehaviour {
 
        
 	}
+
+    private void UpdateResultsCanvas()
+    {    
+        GameObject.Find("Prisoners").GetComponent<Text>().text = "Prisoners : " + enemiesKilled.ToString();
+        GameObject.Find("Civilians").GetComponent<Text>().text = "Civilians : " + friendliesKilled.ToString();
+        GameObject.Find("MaxMultiplier").GetComponent<Text>().text = "Multiplier : " + highestMultiplier.ToString();
+        GameObject.Find("FinalScore").GetComponent<Text>().text = "Score : " + score.ToString(); 
+    }
 
     //Activates NPCs as time passes
     private void UpdateNPCs()

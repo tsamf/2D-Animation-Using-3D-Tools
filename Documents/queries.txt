@@ -1,0 +1,24 @@
+use PrisonBreak
+
+select distinct Surveys.group_num, levelSummary.id as StdOrder, levelSummary.id as RunOrder , 1 as PtType, 1 as Blocks, CurrentLevel as Level,
+case ShaderSetting
+	When 'Both' Then 4
+	When 'Shadow' then 3
+	When 'Outline' Then 2
+	When 'None' then 1 
+	END as Shader,
+highestMultiplier
+from levelSummary
+left join Surveys on levelSummary.studentID = Surveys.studentID
+order by Surveys.group_num
+
+
+select  from levelSummary 
+
+select  from Surveys 
+order by group_num
+
+select  from 
+
+
+	select highestMultiplier,ShaderSetting,CurrentLevel from levelSummary order by CurrentLevel,highestMultiplier

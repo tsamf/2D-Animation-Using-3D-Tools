@@ -24,37 +24,37 @@ public class CSVWriter : MonoBehaviour {
 
     public void WriteToFile()
     {
-        string path = string.Format(@"c:\temp\MyTest {0}.txt", DateTime.Now.ToString("yyyyMMddHHmmss"));
-        if (!File.Exists(path))
-        {
-            // Create a file to write to.
-            using (StreamWriter sw = File.CreateText(path))
-            {
-                //Create header for total data
-                sw.WriteLine(TotalData.ReturnHeader());
+        //string path = string.Format(@"c:\temp\MyTest {0}.txt", DateTime.Now.ToString("yyyyMMddHHmmss"));
+        //if (!File.Exists(path))
+        //{
+        //    // Create a file to write to.
+        //    using (StreamWriter sw = File.CreateText(path))
+        //    {
+        //        //Create header for total data
+        //        sw.WriteLine(TotalData.ReturnHeader());
                 
-                //Write Total
-                sw.WriteLine(total.ToString());
+        //        //Write Total
+        //        sw.WriteLine(total.ToString());
 
-                //Create header for enemy data
-                sw.WriteLine(EnemyData.ReturnHeader());
+        //        //Create header for enemy data
+        //        sw.WriteLine(EnemyData.ReturnHeader());
 
-                //Write enemy lines
-                foreach (EnemyData enemy in enemies)
-                {
-                    sw.WriteLine(enemy.ToString());
-                }
+        //        //Write enemy lines
+        //        foreach (EnemyData enemy in enemies)
+        //        {
+        //            sw.WriteLine(enemy.ToString());
+        //        }
 
-                //Create header for friendly data
-                sw.WriteLine(FriendlyData.ReturnHeader());
+        //        //Create header for friendly data
+        //        sw.WriteLine(FriendlyData.ReturnHeader());
 
-                //Write friendly lines
-                foreach (FriendlyData friendly in friendlies)
-                {
-                    sw.WriteLine(friendly.ToString());
-                }
-            }
-        }
+        //        //Write friendly lines
+        //        foreach (FriendlyData friendly in friendlies)
+        //        {
+        //            sw.WriteLine(friendly.ToString());
+        //        }
+        //    }
+        //}
     }
 
     public void AddEnemy(EnemyData enemy)
