@@ -13,8 +13,10 @@ To create the outline effect, a two pass shader was created. The first pass is r
 
 For an object shadow, a Unity Projector is used. It is attached to the parent of the object and set directly above the object facing downwards. Once the projector is created it is set to ignore the layer that the object is on so the shadow is only cast on the ground. The cel-shading effect is accomplished by projecting a ramp texture with only values, shaded and unshaded, directly below the object.
 
-<img src="/Documents/IEEE_Picture_With_Poster.jpg" width="500">
 
-
+ <figure>
+  <img src="/Documents/IEEE_Picture_With_Poster.jpg" width="500">
+  <figcaption>Presenting findings at a local IEEE branch meeting</figcaption>
+</figure> 
 
 
