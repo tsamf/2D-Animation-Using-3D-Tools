@@ -1,5 +1,5 @@
 # 2D-Animation-Using-3D-Tools
-An independent study course focused on researching non-photorealistic rendering techniques to mimic 2D hand drawn animations using 3D models 
+A project made in an independent study course focused on researching non-photorealistic rendering techniques to mimic 2D hand drawn animations using 3D models.
 
 Unity Version: 5.6.1f1  
 Platform: Windows Desktop  
